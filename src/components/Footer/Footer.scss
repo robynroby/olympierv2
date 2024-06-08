@@ -1,0 +1,154 @@
+.info {
+    background-color: #F5F7FA;
+    height: 216px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    h3 {
+        color: #263238;
+        font-size: xx-large;
+
+    }
+
+}
+
+.foot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #263238;
+
+    h3 {
+        color: #FFFFFF;
+    }
+
+    ul {
+        color: #F5F7FA;
+    }
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+    input {
+        width: 300px;
+        height: 40px;
+        border: none;
+        border-radius: 20px;
+        padding: 0 20px;
+        font-size: 1rem;
+        outline: none;
+    }
+
+    button {
+        width: 100px;
+        height: 40px;
+        border: none;
+        border-radius: 20px;
+        background-color: #4CAF50;
+        color: #F5F7FA;
+        font-size: 1rem;
+        margin-left: 10px;
+        cursor: pointer;
+        outline: none;
+    }
+}
+
+.comp {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    // width: 550px;
+    // align-items: center;
+    // padding: 6rem 26rem;
+    // margin-left: 50px;
+    ul{
+        list-style: none;
+        margin-right: 50px;
+        margin-left: 50px;
+
+        h3{
+            color: #F5F7FA;
+            padding-bottom: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+            // font-size: 1.2rem;
+            color: #F5F7FA;
+        }
+    
+    }
+}
+
+// .comp > * {
+//     margin-right: 50px; /* Adjust as needed */
+//     margin-left: 50px;
+// }
+.copy {
+    color: #F5F7FA;
+    margin-right: 50px;
+
+    .FontAwesomeIcon {
+        margin-right: 10px;
+        font-size: 30px;
+        color: inherit;
+    }
+
+    a {
+        text-decoration: none;
+        margin-right: 10px;
+        font-size: 30px;
+        color: inherit;
+    }
+
+
+}
+
+@media (max-width: 768px) {
+    
+
+    
+    .foot {
+        display: block;
+    }
+
+    .copy {
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-right: 0;
+    }
+
+    .comp {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 100vw;
+    }
+
+    .input-container {
+        display: block;
+        margin-top: 20px;
+
+        input {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+
+        button {
+            width: 100%;
+            margin: 0;
+        }
+    }
+
+}

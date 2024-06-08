@@ -1,0 +1,15 @@
+/* Importing fonts from Google Fonts API */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Lexend:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Setting font family for the body */
+body {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    /* background: #061e32; */
+}
