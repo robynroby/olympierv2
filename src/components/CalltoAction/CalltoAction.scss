@@ -82,13 +82,12 @@
         }
 
         .cta-images {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
 
             img {
-                width: 150px;
-                margin-bottom: 10px;
+                width: 130px;
+                margin-top: 20px;
             }
         }
     }
